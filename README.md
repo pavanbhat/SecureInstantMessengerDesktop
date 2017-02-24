@@ -34,7 +34,7 @@ Next,
 <li>Click the register button while logging in for the first time. Next time onwards as the user is already registered the login button would work.</li>
 <li>Add a User already connected to the server. Otherwise, the chat will wait until the user is registered on the server and no action will be taken.</li>
 </ul>
-<br>
+
 <p align="justify">
 Client A - Sender<br>
 Client B - Receiver<br>
@@ -43,26 +43,18 @@ Client A adds B to its list<br>
 Client B adds A to its list<br>
 <br>
 Now, if both the users are connected, the respective users will be populated in the online buddies section on the right. Click on the name of the client you want to chat with and press send to send messages.<br>
-<br>
 Clicking logout would reflect on the client and the server machines and the user who has logged out will switch from the online buddies section to the offline buddies section.</p>
-<br>
 <strong>Communication:</strong><br>
-<br>
 A registers to the Server<br>
 B registers to the Server<br>
-<br>
 A adds B<br>
 B adds A<br>
-<br>
 A sends message -> Encryption Module (Secure.java) -> Server<br>
 Server then forwards the message to the respective client<br>
-<br>
 XMPP is used to show status messages i.e. Online and Offline status.<br>
 
 <strong>Technologies Used:</strong> Java, JFrames (GUI), Android, JSON<br>
-<br>
 <strong>Domains:</strong> Networking, Security <br>
-<br>
 
 <strong>Important Files:</strong>
 <ol>
@@ -72,7 +64,6 @@ XMPP is used to show status messages i.e. Online and Offline status.<br>
 <li>IMServer.java (Contains the server side code)</li>
 <li>IMProcessPacket.java (Contains processing information on the server side)</li>
 </ol>
- <br>
 
 <strong>Requirements:</strong>
 <ul>
