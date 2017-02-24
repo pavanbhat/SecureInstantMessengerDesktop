@@ -1,7 +1,7 @@
 # SecureInstantMessengerDesktop
 <p align="justify">Secure Instant Messenger is a Mobile / Desktop application which has been implemented over Extensible Messaging and Presence Protocol (XMPP) which supports displaying status for an individual such as online, away, offline etc. XMPP was executed using encrypted JSON structure, unlike the traditional XML format. The application was built using a Client-Server architecture using TCP/IP for transfer of messages instantly. The transfer of messages in the instant messenger were encrypted using the end-to-end principle. The principle was adhered to with a dual layered protection in messages using RSA and OAEP algorithm.</p>
 
-<ul><strong>Features Supported by the Messenger:</strong>
+<ol><strong>Features Supported by the Messenger:</strong>
 <li>Login and Signup for users of the instant messenger.</li>
 <li>Allocation and Deallocation of users from the Server.</li>
 <li>Adding buddies over a network and storing their chat messages.</li>
@@ -9,19 +9,12 @@
 <li>Security Module with End to End encryption using RSA and OAEP algorithms.</li>
 </ol>
 
-
-
-
- 
-             
 <p align="justify">
 <strong>Changes to be made on the Client.java file:</strong><br>
 As the network IP address changes with the WIFI network it is connected to, the Server IP address is hardcoded and needs to be changed with the change in the server computer.</p>
-
 <br>
-<p align="justify">
-<strong>NOTE:</strong> <br>Server and Client pcs can't be the same as there will be a conflict of the sockets being used by the same pc. Therefore, Server and Clients must be run on separate computers.</p>
-
+<strong>NOTE:</strong> <br>
+<p align="justify">Server and Client pcs can't be the same as there will be a conflict of the sockets being used by the same pc. Therefore, Server and Clients must be run on separate computers.</p>
 
 <ul>
 <strong>Instructions to run the project:</strong>
@@ -29,8 +22,8 @@ As the network IP address changes with the WIFI network it is connected to, the 
 <li>Build and Run the project on NETBEANS.</li>
 </ul>
 
-<strong>Testing Instructions:</strong>
-Server needs to be started first in order to register the clients.
+<strong>Testing Instructions:</strong><br>
+Server needs to be started first in order to register the clients.<br>
 
 <ul>Next,
 <li>Run the project.</li>
