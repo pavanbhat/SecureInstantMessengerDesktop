@@ -13,10 +13,9 @@
 <p align="justify">
 <strong>Changes to be made on the Client.java file:</strong><br>
 As the network IP address changes with the WIFI network it is connected to, the Server IP address is hardcoded and needs to be changed with the change in the server computer.</p>
-<br>
+
 <strong>NOTE:</strong> <br>
 <p align="justify">Server and Client pcs can't be the same as there will be a conflict of the sockets being used by the same pc. Therefore, Server and Clients must be run on separate computers.</p>
-
 
 <strong>Instructions to run the project:</strong>
 <ul>
