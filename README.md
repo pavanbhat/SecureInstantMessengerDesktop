@@ -1,19 +1,16 @@
 # SecureInstantMessengerDesktop
+<p align="justify">Secure Instant Messenger is a Mobile / Desktop application which has been implemented over Extensible Messaging and Presence Protocol (XMPP) which supports displaying status for an individual such as online, away, offline etc. XMPP was executed using encrypted JSON structure, unlike the traditional XML format. The application was built using a Client-Server architecture using TCP/IP for transfer of messages instantly. The transfer of messages in the instant messenger were encrypted using the end-to-end principle. The principle was adhered to with a dual layered protection in messages using RSA and OAEP algorithm.</p>
 
-<ol>
-Important Files:
-<li>Client.java (Contains the client side code)</li>
-<li>ClientGUI.java (Contains the GUI of the messenger)</li>
-<li>Secure.java (Contains Security module with RSA and OAEP key generation and encryption and decryption code)</li>
-<li>IMServer.java (Contains the server side code)</li>
-<li>IMProcessPacket.java (Contains processing information on the server side)</li>
+<ul><strong>Features Supported by the Messenger:</strong>
+<li>Login and Signup for users of the instant messenger.</li>
+<li>Allocation and Deallocation of users from the Server.</li>
+<li>Adding buddies over a network and storing their chat messages.</li>
+<li>Displaying Status of a user and his buddies.</li>
+<li>Security Module with End to End encryption using RSA and OAEP algorithms.</li>
 </ol>
- 
-<ul>
-Requirements:
-<li>NETBEANS 8.2 (Java SE) to run the GUI using JFrames</li>
-<li>json-simple-1.1.1.jar (JSON library in the lib folder of the distribution)</li>
-</ul>
+
+
+
 
  
              
@@ -27,12 +24,12 @@ As the network IP address changes with the WIFI network it is connected to, the 
 
 
 <ul>
-<strong>Instructions to run the project:<strong>
+<strong>Instructions to run the project:</strong>
 <li>Add the external jar file (JSON)</li>
 <li>Build and Run the project on NETBEANS.</li>
 </ul>
 
-<strong>Testing:</strong>
+<strong>Testing Instructions:</strong>
 Server needs to be started first in order to register the clients.
 
 <ul>Next,
@@ -65,3 +62,22 @@ A sends message -> Encryption Module (Secure.java) -> Server<br>
 Server then forwards the message to the respective client<br>
 <br>
 XMPP is used to show status messages i.e. Online and Offline status.<br>
+
+<strong>Technologies Used:</strong> Java, JFrames (GUI), Android, JSON<br>
+<br>
+<strong>Domains:</strong> Networking, Security <br>
+<br>
+<ol>
+Important Files:
+<li>Client.java (Contains the client side code)</li>
+<li>ClientGUI.java (Contains the GUI of the messenger)</li>
+<li>Secure.java (Contains Security module with RSA and OAEP key generation and encryption and decryption code)</li>
+<li>IMServer.java (Contains the server side code)</li>
+<li>IMProcessPacket.java (Contains processing information on the server side)</li>
+</ol>
+ <br>
+<ul>
+Requirements:
+<li>NETBEANS 8.2 (Java SE) to run the GUI using JFrames</li>
+<li>json-simple-1.1.1.jar (JSON library in the lib folder of the distribution)</li>
+</ul>
